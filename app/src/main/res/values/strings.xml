@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bake Time</string>
+    <string name="title_activity_recipe_detail">RecipeDetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_recipe_step">RecipeStepActivity</string>
+    <string name="add_widget">Add widget</string>
+</resources>

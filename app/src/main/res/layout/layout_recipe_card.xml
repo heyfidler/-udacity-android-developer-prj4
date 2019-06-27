@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/idCardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardPreventCornerOverlap="false">
+
+            <TextView
+                android:id="@+id/idRecipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="25sp"
+                android:background="@color/cardview_light_background"
+                tools:textColor="@android:color/black" />
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
